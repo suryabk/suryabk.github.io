@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
 import { HiSun } from "react-icons/hi";
+import logo from "../assets/sun-it(dark-mode).svg";
 
 function Navbar() {
   const [menu, setMenu] = useState(false);
@@ -13,7 +14,7 @@ function Navbar() {
     { name: "Contact", href: "#" },
   ];
   return (
-    <nav className="bg-color-bg-variant">
+    <nav className="bg-costum-dark-variant">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
           <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
@@ -30,7 +31,10 @@ function Navbar() {
           <div className="flex flex-1 items-center  sm:items-stretch">
             <div className="flex-shrink-0 flex items-center">
               <a href="#">
-                <HiSun className="text-4xl text-color-white z-20" />
+                <img
+                  src={logo}
+                  className="text-4xl text-costum-white z-20 w-12"
+                />
               </a>
             </div>
             <div className="hidden sm:block sm:ml-6">
@@ -49,7 +53,7 @@ function Navbar() {
       </div>
       {menu && (
         <div className="sm:hidden inset-0 w-full">
-          <div className="px-2 pt-2 pb-3 bg-color-bg-variant">
+          <div className="px-2 pt-2 pb-3 bg-costum-dark-variant">
             {navigation.map((nav, idx) => (
               <a
                 key={idx}
