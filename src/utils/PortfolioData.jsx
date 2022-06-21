@@ -17,7 +17,7 @@ const portfolio = [
   },
   {
     project: "CRUD Movie App",
-    desc: "A final assignment from course Backend Developer which provide by HIMSI UIN Jakarta. Each team have two member and Our team got the best team title",
+    desc: "A final assignment from course Backend Developer which provide by HIMSI UIN Jakarta. Each team have two member and Our team got the best team achievment",
     stack: ["Html", "Css", "Php", "Mysql"],
     image: "./images/movie-beclass.png",
     link: null,
