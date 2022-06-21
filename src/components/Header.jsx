@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Header = () => {
   return (
-    <header>
+    <header className="bg-costum-dark">
       <div className="container flex flex-col items-center justify-center h-screen">
         <Fade direction="left" triggerOnce={true} delay={1000} duration={2000}>
           <h1 className="mb-4 text-center">
@@ -13,7 +13,7 @@ const Header = () => {
         </Fade>
         <Fade direction="right" triggerOnce={true} delay={1000} duration={2000}>
           <h2 className="mt-4 font-bold text-center">
-            I'm <span className="text-gradient-green">Surya Bhakti Kusuma</span>
+            I'm <span className="text-costum-green">Surya Bhakti Kusuma</span>
           </h2>
         </Fade>
         <Fade direction="up" triggerOnce={true} delay={2000} duration={3000}>
