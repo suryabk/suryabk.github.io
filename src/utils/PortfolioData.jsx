@@ -10,7 +10,7 @@ const portfolio = [
   {
     project: "DevHunter",
     desc: "A simple website that provide information about github's used based on their username. This project was built using Github API",
-    stack: ["React", "Sass", "API"],
+    stack: ["React", "Sass", "API", "Vercel"],
     image: "./images/dev-hunter.png",
     link: "http://dev-hunter-github-user-search.vercel.app/",
     repo: "https://github.com/suryabk/dev-hunter-github-user-search",
@@ -18,7 +18,7 @@ const portfolio = [
   {
     project: "Advice Generator",
     desc: "This project is one of the most challange which given by Frontendmentor.io. Advice Generator is a simple website and fetch data from https://api.adviceslip.com/. When you clicked the dice icon, it will show a random advice.",
-    stack: ["React", "Sass", "API"],
+    stack: ["React", "Sass", "API", "Vercel"],
     image: "./images/advice-generator.png",
     link: "https://fm-advice-generator.vercel.app/",
     repo: "https://github.com/suryabk/fm-advice-generator",

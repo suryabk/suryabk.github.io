@@ -43,7 +43,7 @@ function Portfolio() {
                   </figure>
                   <div className="card-body">
                     <h2 className="card-title">{item.project}</h2>
-                    <p className="text-left sm:text-xs md:text-sm hidden md:block h-24 overflow-auto scrollbar-thumb-gray-400 scrollbar-track-gray-700 scrollbar-thin pr-2 mb-4">
+                    <p className="text-left sm:text-xs md:text-sm hidden md:block h-24 overflow-auto scrollbar-thumb-slate-200 scrollbar-track-slate-800 scrollbar-thin pr-3 mb-4">
                       {item.desc}
                     </p>
                     <div className="my-2 flex justify-center flex-wrap gap-y-8 gap-x-4 w-full  md:text-4xl text-2xl">
