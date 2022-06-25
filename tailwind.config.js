@@ -7,6 +7,7 @@ module.exports = {
         "costum-dark-variant": "rgba(23, 23, 23, 0.6)",
         "costum-green": "#4cd964",
         "costum-green-variant": "rgba(76, 217, 100, 0.6)",
+        "costum-red": " #ff4654",
         "costum-white": " #f9f9f9",
       },
       animation: {
@@ -37,5 +38,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("daisyui"), require("tailwind-scrollbar")],
+  plugins: [require("daisyui")],
 };

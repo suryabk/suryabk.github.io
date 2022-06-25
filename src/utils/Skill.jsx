@@ -38,7 +38,7 @@ const icons = [
   { name: "Vscode", icon: <SiVisualstudiocode />, color: "#0078d7" },
 ];
 function Skill({ logo }) {
-  let filter = icons.filter((icon) => icon.name === logo);
+  let filter = icons.filter((icon) => icon.name == logo);
   const [hover, setHover] = useState(false);
 
   return (

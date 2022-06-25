@@ -36,14 +36,14 @@ function Portfolio() {
                   key={idx}>
                   <figure>
                     <img
-                      className="w-full overflow-hidden object-fill h-44"
+                      className="w-full overflow-hidden"
                       src={item.image}
                       alt="Shoes"
                     />
                   </figure>
                   <div className="card-body">
                     <h2 className="card-title">{item.project}</h2>
-                    <p className="text-left sm:text-xs md:text-sm hidden md:block h-24 overflow-auto scrollbar-thumb-gray-400 scrollbar-track-gray-700 scrollbar-thin pr-2 mb-4">
+                    <p className="text-left sm:text-xs md:text-sm hidden md:block">
                       {item.desc}
                     </p>
                     <div className="my-2 flex justify-center flex-wrap gap-y-8 gap-x-4 w-full  md:text-4xl text-2xl">
