@@ -1,5 +1,13 @@
 const portfolio = [
   {
+    project: "Personal Notes App",
+    desc: "A final assignment from course 'Learn to Build Webs App with React' which provide by Dicoding and IDCamp 2022 by Indosat Oredoo (https://idcamp.ioh.co.id/). This project is static website, so the data won't change after you refresh the page. In this project you can make a new personal note, grouping notes based on archive or unarchive, and searching all your personal notes. ",
+    stack: ["React", "Tailwind", "Vercel"],
+    image: "./images/my-personal-notes.png",
+    link: "https://my-personal-notes-surya.vercel.app/",
+    repo: "https://github.com/suryabk/beclass-final",
+  },
+  {
     project: "DevHunter",
     desc: "A simple website that provide information about github's used based on their username. This project was built using Github API",
     stack: ["React", "Sass", "API"],
