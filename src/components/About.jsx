@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from "react-awesome-reveal";
+import { Fade, Zoom } from "react-awesome-reveal";
 import surya from "../assets/surya-photo.png";
 import Skill from "../utils/Skill";
 
@@ -32,11 +32,7 @@ function About() {
         </Fade>
 
         <div className="container flex flex-col md:flex-row-reverse justify-center items-center md:items-start">
-          <Fade
-            direction="right"
-            triggerOnce={true}
-            delay={1500}
-            duration={3000}>
+          <Zoom triggerOnce={true} delay={1500} duration={2000}>
             <div className="m-8 ">
               <div className="w-40 mask mask-hexagon bg-costum-white">
                 <img
@@ -45,18 +41,24 @@ function About() {
                   alt="Surya"
                 />
               </div>
-              <button className="btn btn-outline btn-success w-40 self-center">
-                About Me
-              </button>
+              <div className="container mx-auto flex justify-center">
+                <a
+                  className="btn btn-outline btn-success w-40 self-center"
+                  href="https://drive.google.com/file/d/1CtKTBxSK5cnPlynN1W_qCaYCGEyf5nt6/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Resume
+                </a>
+              </div>
             </div>
-          </Fade>
+          </Zoom>
 
           <div className="m-2 md:mx-8 md:my-4 md:w-1/2">
             <Fade
               direction="down"
               triggerOnce={true}
-              delay={1000}
-              duration={2000}>
+              delay={750}
+              duration={1500}>
               <p className=" text-justify md:my-8 my-2">
                 I'm a self-taught software engineer based in Tangerang City. I
                 started focusing in programming since early 2022.
@@ -72,7 +74,7 @@ function About() {
               </p>
             </Fade>
             <div className="divider my-0"></div>
-            <Fade direction="up" triggerOnce={true} delay={100} duration={2000}>
+            <Fade direction="up" triggerOnce={true} delay={100} duration={750}>
               <div className="my-8 flex justify-center flex-wrap gap-y-8 gap-x-4 w-full  text-4xl">
                 {programming.map((icon) => (
                   <Skill logo={icon} key={icon} />

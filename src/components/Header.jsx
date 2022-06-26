@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import { Fade } from "react-awesome-reveal";
+import { Fade, Zoom } from "react-awesome-reveal";
 
 const Header = () => {
   return (
@@ -16,7 +16,7 @@ const Header = () => {
             I'm <span className="text-costum-green">Surya Bhakti Kusuma</span>
           </h2>
         </Fade>
-        <Fade direction="up" triggerOnce={true} delay={2000} duration={3000}>
+        <Zoom triggerOnce={true} delay={2000} duration={3000}>
           <h2 className="font-semibold" style={{ marginTop: "2rem" }}>
             <Typewriter
               options={{
@@ -28,7 +28,7 @@ const Header = () => {
               }}
             />
           </h2>
-        </Fade>
+        </Zoom>
       </div>
     </header>
   );
